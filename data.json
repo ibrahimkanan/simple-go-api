@@ -1,0 +1,63 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "Getting Started with Go REST APIs",
+    "body": "Building lightweight and fast HTTP services in Go is straightforward using standard library packages or frameworks like Echo."
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "Understanding Structs and JSON Marshaling",
+    "body": "Go's encoding/json package provides clean ways to serialize structs into JSON and deserialize incoming payloads back into Go types."
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "Writing Effective Table-Driven Tests",
+    "body": "Table-driven tests allow you to cover many edge cases cleanly without duplicating test boilerplate across multiple functions."
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "Error Handling Best Practices in Go",
+    "body": "Explicit error checking keeps control flow predictable and makes debugging production services much easier."
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "Structuring a Go Web Project",
+    "body": "Separating handlers, services, and models into distinct packages helps keep large codebases maintainable."
+  },
+  {
+    "userId": 2,
+    "id": 6,
+    "title": "Introduction to Echo Middleware",
+    "body": "Middleware lets you attach logging, authentication, and request recovery globally or to specific route groups."
+  },
+  {
+    "userId": 2,
+    "id": 7,
+    "title": "Concurrency Basics with Goroutines",
+    "body": "Goroutines and channels make it simple to execute background tasks concurrently while coordinating safely."
+  },
+  {
+    "userId": 2,
+    "id": 8,
+    "title": "Managing Dependencies with Go Modules",
+    "body": "The go.mod and go.sum files guarantee reproducible builds by tracking exact module versions and checksums."
+  },
+  {
+    "userId": 2,
+    "id": 9,
+    "title": "Graceful Shutdown for HTTP Servers",
+    "body": "Handling OS signals allows your server to finish active requests cleanly before exiting during deployments."
+  },
+  {
+    "userId": 2,
+    "id": 10,
+    "title": "Using Context for Request Timeouts",
+    "body": "Passing context.Context down through service calls ensures slow operations are canceled promptly when a client disconnects."
+  }
+]
+
